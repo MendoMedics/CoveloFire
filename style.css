@@ -1,0 +1,47 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+.hero-banner {
+  background: url('images/station-banner.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #111;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin: 0;
+}
+nav ul li a {
+  display: block;
+  padding: 1rem;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #e74c3c;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  color: white;
+  position: relative;
+  bottom: 0;
+}
